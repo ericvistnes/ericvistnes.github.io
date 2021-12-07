@@ -63,17 +63,17 @@ article {
 }
 
 article, footer {
-  	margin-left: auto;
-  	margin-right: auto;
-  	width: 50%;
-  	min-width: 55ch;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	min-width: 55ch;
 }
 
 .nav {
 	color: grey;
-  	font-size: 16px;
-  	padding-bottom: 35px;
-  	letter-spacing: .05em;
+  font-size: 16px;
+  padding-bottom: 50px;
+	letter-spacing: .05em;
 }
 
 .desc {
@@ -85,7 +85,11 @@ article, footer {
 }
 
 img {
-  	border-radius: 50%;
+  border-radius: 50%;
+  width:30%;
+  height:30%;
+  margin-left: 35%;
+  margin-bottom: 15px;
 }
 
 p {
@@ -96,14 +100,14 @@ p {
 
 h1 {
 	color: black;
-  	font-size: 40px;
-  	font-family: Helvetica Neue;
-  	font-weight: bold;
+	font-size: 40px;
+	font-family: Helvetica Neue;
+	font-weight: bold;
 }
 
 h2 {
 	color: black;
-  	font-size: 26px;
-  	font-family: Helvetica Neue;
-  	font-weight: bold;
+	font-size: 26px;
+	font-family: Helvetica Neue;
+	font-weight: bold;
 }
