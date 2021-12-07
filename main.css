@@ -58,11 +58,25 @@ b {
 	font-weight:bold;
 }
 
-article {
+li {
+  list-style-position: inside;
+  margin-left:25px;
+  margin-top:5px;
+  margin-bottom:5px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.project {
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+
+.container {
 	padding-bottom: 100px;
 }
 
-article, footer {
+.container, footer {
 	margin-left: auto;
 	margin-right: auto;
 	width: 50%;
@@ -110,4 +124,11 @@ h2 {
 	font-size: 26px;
 	font-family: Helvetica Neue;
 	font-weight: bold;
+}
+
+h3 {
+  color: black;
+  font-size: 22px;
+  font-family: Helvetica Neue;
+  font-weight: bold;
 }

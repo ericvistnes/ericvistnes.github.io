@@ -6,20 +6,41 @@
 		<link rel="stylesheet" href="main.css">
 	</head>
 	<body>
-		<article>
+		<article class="container">
 			<h1>Eric Vistnes</h1>
 			<div class="nav">
 				<span><a class="nav-link" href="index.html">About</a> | <a class="nav-link" href="contact.html">Contact Me</a> | Portfolio | <a class="nav-link" target="_blank" href="https://github.com/ericvistnes">GitHub</a></span>
 			</div>
-			<p class="desc">
-				My portfolio
-			</p>
-			<p>
-				Take a look at my <a rel="noopener" href="portfolio.html">portfolio</a>
-			</p>
-			<p>
-				Or go straight to my github <a target="_blank" rel="noopener" href="https://github.com/ericvistnes">@ericvistnes</a>
-			</p>
+			<section class="project">
+				<h3>Heart Disease Prediction and Classification</h3>
+				<ul style="list-style-type:square;">
+					<li>Created <b>14 Classification models</b> and trained them on a global dataset of patients with heart disease</li>
+					<li>Models perform with accuracy that <b>matches leading models</b> and sensitivity that <b>outperforms</b> leading models and research
+						<ul style="list-style-type:circle;">
+							<li>Random Forest KPCA with Bagging achieved <b>94%</b> sensitivity and <b>85%</b> accuracy</li>
+							<li>Linear SVC model with accuracy and sensitivity of <b>87%</b></li>
+						</ul>
+					</li>
+					<li>Highlighted the need for more research into data from varying medical centers that collect information that has not been previously used in heart disease research</li>
+				</ul>
+			</section>
+			<section class="project">
+				<h3>Face Mask Detection and Recogntion in Multi-Face Images</h3>
+				<ul style="list-style-type:square;">
+					<li>Created an Image Processing model based on VGGNet, a <b>Convolutional Neural Network (CNN)</b>, to classify faces based on the presence of face masks</li>
+					<li>Used modified Haar Cascade logic to find faces in real world images</li>
+					<li>Validation <b>accuracy of 99.15%</b> on input images of faces</li>
+					<li>Locates and classifies real-world faces in a usable interface</li>
+				</ul>
+			</section>
+			<section class="project">
+				<h3>FIFA Player Analysis</h3>
+				<ul style="list-style-type:square;">
+					<li>We used Principal Component Analysis to categorize all player statistics into the fice components of Attacking, Defending, Hype & Value, Players Physique, and Others</li>
+					<li>Exploratory Factor Analysis revealed that player reputation and compensation are not linearly related</li>
+					<li>Canonical Correspondence Analysis confirmed that player's skills and attributes are strongly correlated to their position</li>
+				</ul>
+			</section>
 		</article>
 		<footer>
   			<small>2021 &copy; Eric Vistnes</small>
