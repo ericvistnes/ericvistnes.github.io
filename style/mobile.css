@@ -96,6 +96,34 @@ li {
 	color: gray;
 }
 
+.button-66 {
+  background-color: gray;
+  border-radius: 4px;
+  border: 0;
+  box-shadow: rgba(1,60,136,.5) 0 -1px 3px 0 inset,rgba(0,44,97,.1) 0 3px 6px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Space Grotesk",-apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 10px;
+  min-height: 40px;
+  min-width: 100px;
+  margin-top: 10px;
+  
+  text-align: center;
+  user-select: none;
+  transition: all .2s cubic-bezier(.22, .61, .36, 1);
+  display:inline-block;
+  float: top;  
+}
+
+.button-66:hover {
+  background-color: #065dd8;
+  transform: translateY(-2px);
+}
+
 img {
   border-radius: 50%;
   width:30%;
